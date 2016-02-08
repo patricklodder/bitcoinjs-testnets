@@ -1,0 +1,25 @@
+{
+  "name" : "bitcoinjs-testnets",
+  "description" : "Additional network testnet parameters for bitcoinjs-lib",
+  "keywords" : [ "bitcoinjs", "testnet", "litecoin", "dogecoin", "network" ],
+  "version" : "1.0.10",
+  "preferGlobal" : false,
+  "homepage" : "https://github.com/patricklodder/bitcoinjs-testnets",
+  "author" : "Patrick Lodder <patrick.lodder@gmail.com> (https://github.com/patricklodder)",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/patricklodder/bitcoinjs-testnets"
+  },
+  "bugs" : {
+    "url" : "https://github.com/patricklodder/bitcoinjs-testnets/issues"
+  },
+  "main" : "./testnets.js",
+  "devDependencies": {
+    "vows": "0.8.x"
+  },
+  "scripts": {
+    "test" : "node_modules/.bin/vows --spec test/*.js"
+  },
+  "license" : "MIT"
+}
+
